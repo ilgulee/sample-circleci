@@ -57,7 +57,7 @@ public class MainPresenterTest {
 
     @Test
     public void colorSelected() {
-        int index=2;
+        int index=3;
         int givenColor= Color.GREEN;
         presenter.colorSelected(index);
         Mockito.verify(view).changeBackgroundColor(givenColor);
